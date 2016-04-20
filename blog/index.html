@@ -1,0 +1,29 @@
+---
+layout: default
+published: true
+title: Blog
+---
+<h1 class="page-heading">Blog</h1>
+
+<ul class = "media-list">
+  {% for post in site.posts %}
+  <li  class="media">
+  <div class="media-left">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <img class="media-object" src="/img/thumbs/{{post.image}}" alt="post.title">
+    </a>
+  </div>
+   <div class="media-body">
+
+
+      <h3>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h3>
+      <h4><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></h4>
+         {{ post.excerpt }}
+    </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
