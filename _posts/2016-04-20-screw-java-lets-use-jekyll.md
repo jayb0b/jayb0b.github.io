@@ -3,6 +3,7 @@ layout: post
 title:  "Screw Java, let's use Jekyll"
 date:   2016-04-20 08:45:00 +0100
 categories: jekyll java
+image: jekyll.jpg
 ---
 
 I can be a procrastinator of epic proportions. I love dipping my toes in new technologies. So, when it came to creating my own blog without a set deadline in mind, I resorted to dithering around and creating a cavalcade of half finished prototypes that are currently strewn across my Bitbucket account.
