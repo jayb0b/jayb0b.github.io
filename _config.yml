@@ -9,7 +9,7 @@
 title: johnbob.co.uk
 email: john@notzen.com
 description: > # this means to ignore newlines until "baseurl:"
-  Website and blog for JR Smith: web and Java developer, prog wizard and snake owner.
+  Website and blog for JR Smith: web and Java developer, prog wizard and snake owner. Based in Stirling, central Scotland.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.johnbob.co.uk" # the base hostname & protocol for your site
 twitter_username: jayb0b
