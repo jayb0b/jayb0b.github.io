@@ -1,6 +1,16 @@
 
-body{
+body, footer > p{
   font-family: 'Montserrat', sans-serif;
+}
+
+footer > p{
+  font-size:$font-size-small;
+}
+.container-fluid{
+
+}
+footer{
+
 }
 p{
     font-family: 'Lora', serif;
@@ -12,4 +22,57 @@ h1, .h1, h2, .h2, h3, .h3{
   float:right;
   margin-left:10px;
 
+}
+li.media{
+  background-color: #FFF;
+}
+li.media{
+  background-color: #FFF;
+}
+li.media img{
+  padding-top:11px;
+  padding-left:11px;
+}
+.post-content{
+  padding:11px;
+  background-color: white;
+}
+.homepage{
+    background-image: url('/img/homepage.jpg');
+    height:100vh;
+    max-height:800px;
+
+}
+.homepage > .jumbotron{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color:rgba(0,0,0,0.4);
+  color: white;
+  border-radius: 0px;
+}
+.nav-column{
+    padding-right: 0px;
+    padding-left:0px;
+    background-color:#252525;
+    padding-bottom:99999px;
+    margin-bottom: -99999px;
+    color:white;
+
+}
+.content-column{
+    padding-left: 0px;
+}
+.hide-overflow{
+  overflow:hidden;
+}
+#logo{
+  width:100%;
+  max-width:300px;
+}
+
+ul.contact-list, nav > ul{
+  list-style-type: none;
+  padding:0px;
+  color:white;
 }
