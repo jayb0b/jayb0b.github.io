@@ -7,11 +7,14 @@ footer > p{
   font-size:$font-size-small;
 }
 .container-fluid{
-
+  max-width: 1200px;
 }
 header,footer{
   padding:5px;
   text-align: right;
+}
+h1.page-heading{
+  text-align:right;
 }
 p{
     font-family: 'Lora', serif;
@@ -76,4 +79,7 @@ ul.contact-list, nav > ul{
   list-style-type: none;
   padding:0px;
   color:white;
+}
+#disqus_thread{
+  padding:10px;
 }
