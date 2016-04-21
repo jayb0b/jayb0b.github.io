@@ -17,3 +17,5 @@ github_username:  jayb0b
 
 # Build settings
 markdown: kramdown
+sass:
+    style: compressed

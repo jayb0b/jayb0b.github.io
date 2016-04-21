@@ -45,6 +45,7 @@ li.media img{
     background-image: url('/img/home.jpg');
     height:100vh;
     max-height:800px;
+        margin-right: -20px;
 
 }
 .homepage > .jumbotron{
@@ -66,6 +67,9 @@ li.media img{
 }
 .content-column{
     padding-left: 0px;
+    border-right-color: #ddd;
+border-right-style: dashed;
+border-right-width: 1px;
 }
 .hide-overflow{
   overflow:hidden;
