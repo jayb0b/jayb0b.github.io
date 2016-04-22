@@ -1,10 +1,18 @@
 
-body, footer > p{
+body{
   font-family: 'Montserrat', sans-serif;
 }
-
-footer > p{
+footer {
+  position:absolute;
+  bottom:5px;
+}
+#site-description{
   font-size:$font-size-small;
+  font-family: 'Montserrat', sans-serif;
+}
+.post-meta{
+  font-family: 'Montserrat', sans-serif;
+  color: #AAA;
 }
 .container-fluid{
   max-width: 1200px;
@@ -22,9 +30,10 @@ p{
 h1, .h1, h2, .h2, h3, .h3{
   margin-top: 11px;
 }
-.post-content img{
+img#lead-image{
   float:right;
   margin-left:10px;
+  max-width:100%;
 
 }
 ul.media-list{
@@ -55,18 +64,18 @@ li.media img{
   background-color:rgba(0,0,0,0.4);
   color: white;
   border-radius: 0px;
+
 }
 .nav-column{
     padding-right: 0px;
     padding-left:0px;
     background-color:#252525;
-    padding-bottom:99999px;
-    margin-bottom: -99999px;
+    position:relative;
     color:white;
 
 }
 .content-column{
-
+    padding-right: 0px;
     padding-left: 0px;
     border-right-color: #ddd;
     border-right-style: dashed;
@@ -82,9 +91,29 @@ li.media img{
 
 ul.contact-list, nav > ul{
   list-style-type: none;
-  padding:0px;
+  padding:10px 0 0 0;
   color:white;
 }
 #disqus_thread{
   padding: 0 11px;
+}
+.row.equal-height {
+    display: table;
+}
+
+.row.equal-height > [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+@media screen and (max-width: 768px){
+  .row.equal-height > [class*="col-"] {
+      float: inherit;
+      display: inherit;
+      vertical-align: inherit;
+  }
+  footer{
+      position: inherit;
+   }
+
 }

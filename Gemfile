@@ -2,6 +2,5 @@
 source "https://rubygems.org"
 
 # gem "rails"
+gem 'jekyll'
 gem 'jekyll-sitemap'
-gem 'jekyll-watch'
-gem 'kramdown'
