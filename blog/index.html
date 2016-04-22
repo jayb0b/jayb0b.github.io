@@ -8,11 +8,13 @@ title: Blog
 <ul class = "media-list">
   {% for post in site.posts %}
   <li  class="media">
+  {% if post.image != nil %}
   <div class="media-left">
     <a href="{{ post.url | prepend: site.baseurl }}">
       <img class="media-object" src="/img/thumbs/{{post.image}}" alt="post.title">
     </a>
   </div>
+  {% endif %}
    <div class="media-body">
 
 
@@ -25,5 +27,3 @@ title: Blog
     </li>
   {% endfor %}
 </ul>
-
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

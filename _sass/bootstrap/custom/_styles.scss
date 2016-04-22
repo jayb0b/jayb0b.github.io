@@ -27,6 +27,9 @@ h1, .h1, h2, .h2, h3, .h3{
   margin-left:10px;
 
 }
+ul.media-list{
+  margin-left: 11px;
+}
 li.media{
   background-color: #FFF;
 }
@@ -35,17 +38,16 @@ li.media{
 }
 li.media img{
   padding-top:11px;
-  padding-left:11px;
+
 }
 .post-content{
   padding:11px;
   background-color: white;
 }
 .homepage{
-    background-image: url('/img/home.jpg');
+    background-image: url('/img/stirling.jpg');
     height:100vh;
-    max-height:800px;
-        margin-right: -20px;
+    max-height:1050px;
 
 }
 .homepage > .jumbotron{
@@ -66,10 +68,11 @@ li.media img{
 
 }
 .content-column{
+
     padding-left: 0px;
     border-right-color: #ddd;
-border-right-style: dashed;
-border-right-width: 1px;
+    border-right-style: dashed;
+    border-right-width: 1px;
 }
 .hide-overflow{
   overflow:hidden;
@@ -85,8 +88,5 @@ ul.contact-list, nav > ul{
   color:white;
 }
 #disqus_thread{
-  padding:10px;
-}
-#lead-image{
-  max-width: 100%;
+  padding: 0 11px;
 }

@@ -9,7 +9,9 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
+    {% if page.image != nil %}
     <img id = "lead-image" src = "/img/{{page.image}}" />
+    {% endif %}
     {{ content }}
 
     <span class='st_facebook_large' displayText='Facebook'></span>
