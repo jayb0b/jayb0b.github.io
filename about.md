@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-About your company page!
+**[Sounds of drilling and hammering]**
