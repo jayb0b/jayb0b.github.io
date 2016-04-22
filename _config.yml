@@ -19,3 +19,5 @@ github_username:  jayb0b
 markdown: kramdown
 sass:
     style: compressed
+gems:
+  - jekyll-sitemap
