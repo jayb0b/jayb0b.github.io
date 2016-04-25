@@ -5,7 +5,7 @@ date:   2016-04-25 012:00:00 +0100
 categories: jekyll
 ---
 
-Okay, [last time]("{% post_url 2016-04-22-jekyll-setup-on-windows %}") we finished up with a working Jekyll install and published the vanilla website over on Github pages. At the end of this post, we'll end up with a website that's far worse looking but will provide a decent foundation for moving forward. We'll be installing Bootstrap 3.
+Okay, [last time]({% post_url 2016-04-22-jekyll-setup-on-windows %}) we finished up with a working Jekyll install and published the vanilla website over on Github pages. At the end of this post, we'll end up with a website that's far worse looking but will provide a decent foundation for moving forward. We'll be installing Bootstrap 3.
 
 ## A jaunt through the file system
 
