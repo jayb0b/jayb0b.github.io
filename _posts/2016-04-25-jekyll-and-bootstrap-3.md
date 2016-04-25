@@ -11,8 +11,6 @@ Okay, [last time]("{% post_url 2016-04-22-jekyll-setup-on-windows %}") we finish
 
 Before we get there, let's explore around the file structure of Jekyll. There's a fair amount going on here, but it's all pretty straightforward.
 
-![Jekyll folder structure](/img/jekyll-folder-structure.png)
-
 * **_includes**: Snippets of HTML that you can reuse across your site. A good place to throw things like headers, footers and so on.
 * **_layouts**: The base templates of your website. If you look at default.html, you'll see elements from the \_includes folder being used. There's also an element called \{\{content\}\} which we'll get to in a sec.
 * **_posts**: This is where your blog entries go. You create them as Markdown files.
