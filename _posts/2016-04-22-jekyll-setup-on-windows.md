@@ -7,7 +7,7 @@ categories: jekyll
 
 Okay, following on from [my last post]({% post_url 2016-04-20-screw-java-lets-use-jekyll %}), let's talk about throwing together a working website in Jekyll from beginning to end. The website will include vanilla Bootstrap 3 styling, Disqus comments for your blog, a generated sitemap.xml and will be hosted on Github Pages. This post covers getting the base install up and running on a Windows system and deploying the site.
 
-First things first: you'll need a Github account. There are other ways of setting up a low cost Jekyll install ([Amazon S3]("https://aws.amazon.com/s3/") springs to mind) but the Github approach is deliciously straightforward. Anyway: get yourself a [Github]("https://github.com") account. While you're away, go grab [Git]("https://git-scm.com/") if you don't have it already. You'll be using it to create a development copy of your website and pushing changes to the live server. Git's a version control system and the nature of it is a discussion for another day. For the purposes of what we're doing here, it's sort of like what folks have to do with FTP and website deployment with less swearing, sweating and finger-crossing. So: sign up to Github. Grab Git. It'll only take a couple of minutes. I'll be here when you get back.
+First things first: you'll need a Github account. There are other ways of setting up a low cost Jekyll install ([Amazon S3](https://aws.amazon.com/s3/) springs to mind) but the Github approach is deliciously straightforward. Anyway: get yourself a [Github](https://github.com) account. While you're away, go grab [Git](https://git-scm.com/) if you don't have it already. You'll be using it to create a development copy of your website and pushing changes to the live server. Git's a version control system and the nature of it is a discussion for another day. For the purposes of what we're doing here, it's sort of like what folks have to do with FTP and website deployment with less swearing, sweating and finger-crossing. So: sign up to Github. Grab Git. It'll only take a couple of minutes. I'll be here when you get back.
 
 **[LIFT MUSIC]**
 
@@ -21,7 +21,7 @@ You'll now have an empty folder called 'your-gibhub-username.github.io'. Time to
 
 ## A Russian nesting doll situation
 
-Under the hood, Jekyll uses Ruby and it's package management system gem. This was always a bit of a faff you get working under Windows, but thankfully there's an easy solution for it now: another package manager. [Chocolatey]("https://chocolatey.org/") is a Windows equivalent of brew and apt-get: to install it, copy and paste the following into a cmd prompt *that has admin permissions*:
+Under the hood, Jekyll uses Ruby and it's package management system gem. This was always a bit of a faff you get working under Windows, but thankfully there's an easy solution for it now: another package manager. [Chocolatey](https://chocolatey.org/) is a Windows equivalent of brew and apt-get: to install it, copy and paste the following into a cmd prompt *that has admin permissions*:
 
 ```
  @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
