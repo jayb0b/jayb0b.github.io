@@ -53,4 +53,4 @@ git push origin master
 ```
 You'll be asked for your username and password for Github. A couple of seconds later, if you go to http://your-gibhub-username.github.io the standard Jekyll template will appear. Moving forward, this will be how you update the styling on the live site and also how you publish content.
 
-In the next post, I'll start exploring the Jekyll folder structure and **completely** break the styling on the site by installing Bootstrap.
+In the [next post]({% post_url 2016-04-25-jekyll-and-bootstrap-3 %}), I'll start exploring the Jekyll folder structure and **completely** break the styling on the site by installing Bootstrap.
